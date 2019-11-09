@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CHESS GAME</title>
+        <link rel="stylesheet" type="text/css" href="static/style.css">
+        <img class="Surot" src="https://wallpapercave.com/wp/wp2418790.png" alt="Trulli" width="800" height="500">
+        <h1>    <p style="color:green">WELCOME TO MY CHESS ROOM!</p>
+        </h1>
+    </head>
+    <body>
+        <form action='/fortune_results' method='GET'>
+            PLAYER NAME:
+            <input type='text' name='players name' placeholder="Fist name and Last name">
+            <br />
+            <br />
+           EXPERIENCE:
+            
+            <select>
+                <option value="volvo">less than a year</option>
+                <option value="saab">1-2</option>
+                <option value="opel">2-5</option>
+                <option value="audi">5+</option>
+            </select>
+            <br />
+            <br />
+            GENDER:
+            <br />
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other <br>
+            <br />
+            <br />
+            TYPE OF FAVORITE CHESS GAME:
+            <br />
+            <input type="radio" id="gtype" name="type" value="Standard"> Standard<br>
+            <input type="radio" id="gtype" name="type" value="Untimed"> Untimed<br>
+            <input type="radio" id="gtype" name="type" value="Wild"> Wild<br>
+            <input type="radio" id="gtype" name="type" value="Blitz"> Blitz<br>
+
+            <br />
+            <br />
+
+            <input type='submit' value='Submit!'>
+        
+        </form>
+        
+    </body>
+    
+
+</html>
